@@ -1,0 +1,23 @@
+2024-04-29 21:31:50 | ERROR | stderr | Traceback (most recent call last):
+2024-04-29 21:31:50 | ERROR | stderr |   File "/home/dh/anaconda3/envs/video_chatgpt/lib/python3.8/site-packages/transformers/utils/hub.py", line 398, in cached_file
+2024-04-29 21:31:50 | ERROR | stderr |     resolved_file = hf_hub_download(
+2024-04-29 21:31:50 | ERROR | stderr |   File "/home/dh/anaconda3/envs/video_chatgpt/lib/python3.8/site-packages/huggingface_hub/utils/_validators.py", line 111, in _inner_fn
+2024-04-29 21:31:50 | ERROR | stderr |     validate_repo_id(arg_value)
+2024-04-29 21:31:50 | ERROR | stderr |   File "/home/dh/anaconda3/envs/video_chatgpt/lib/python3.8/site-packages/huggingface_hub/utils/_validators.py", line 159, in validate_repo_id
+2024-04-29 21:31:50 | ERROR | stderr |     raise HFValidationError(
+2024-04-29 21:31:50 | ERROR | stderr | huggingface_hub.utils._validators.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/home/dh/zsc/VideoBench/model/Video-ChatGPT/LLaVA-7B-Lightening-v1-1'. Use `repo_type` argument if needed.
+2024-04-29 21:31:50 | ERROR | stderr | 
+2024-04-29 21:31:50 | ERROR | stderr | The above exception was the direct cause of the following exception:
+2024-04-29 21:31:50 | ERROR | stderr | 
+2024-04-29 21:31:50 | ERROR | stderr | Traceback (most recent call last):
+2024-04-29 21:31:50 | ERROR | stderr |   File "inference_CUVA.py", line 136, in <module>
+2024-04-29 21:31:50 | ERROR | stderr |     initialize_model(args.model_name, args.projection_path, args.vision_tower_path)
+2024-04-29 21:31:50 | ERROR | stderr |   File "/home/dh/pythonProject/CUVA/Video-ChatGPT/video_chatgpt/eval/model_utils.py", line 263, in initialize_model
+2024-04-29 21:31:50 | ERROR | stderr |     tokenizer = AutoTokenizer.from_pretrained(model_name)
+2024-04-29 21:31:50 | ERROR | stderr |   File "/home/dh/anaconda3/envs/video_chatgpt/lib/python3.8/site-packages/transformers/models/auto/tokenization_auto.py", line 786, in from_pretrained
+2024-04-29 21:31:50 | ERROR | stderr |     tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+2024-04-29 21:31:50 | ERROR | stderr |   File "/home/dh/anaconda3/envs/video_chatgpt/lib/python3.8/site-packages/transformers/models/auto/tokenization_auto.py", line 619, in get_tokenizer_config
+2024-04-29 21:31:50 | ERROR | stderr |     resolved_config_file = cached_file(
+2024-04-29 21:31:50 | ERROR | stderr |   File "/home/dh/anaconda3/envs/video_chatgpt/lib/python3.8/site-packages/transformers/utils/hub.py", line 462, in cached_file
+2024-04-29 21:31:50 | ERROR | stderr |     raise EnvironmentError(
+2024-04-29 21:31:50 | ERROR | stderr | OSError: Incorrect path_or_model_id: '/home/dh/zsc/VideoBench/model/Video-ChatGPT/LLaVA-7B-Lightening-v1-1'. Please provide either the path to a local folder or the repo_id of a model on the Hub.
