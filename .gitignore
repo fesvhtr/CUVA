@@ -1,6 +1,7 @@
 beats/
 mist/
 Aist/
-Data/
+Data/capture_image
+Data/ori_video_annotation.xlsx
 Nwpu/
 *.log

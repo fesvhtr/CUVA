@@ -1,0 +1,15 @@
+[submodule "Models/Video-LLaMA"]
+	path = Models/Video-LLaMA
+	url = https://github.com/DAMO-NLP-SG/Video-LLaMA
+[submodule "Models/mPLUG-OWL"]
+	path = Models/mPLUG-OWL
+	url = https://github.com/X-PLUG/mPLUG-Owl
+[submodule "Models/Otter"]
+	path = Models/Otter
+	url = https://github.com/Luodian/Otter.git
+[submodule "Models/TimeChat"]
+	path = Models/TimeChat
+	url = https://github.com/RenShuhuai-Andy/TimeChat.git
+[submodule "Models/PandaGPT"]
+	path = Models/PandaGPT
+	url = https://github.com/yxuansu/PandaGPT.git

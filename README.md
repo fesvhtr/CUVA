@@ -15,13 +15,13 @@ pip install -r requirements.txt
 conda activate cuva
 ```
 ## CUVA Benchmark
-### Dataset
+### CUVA Dataset
 Please complete the [form](https://forms.gle/MLGBcxPuz2Vhvw5L9) to get the dataset URL.  
 There are 4 zip files and 1 json file in the dataset, unzip them and put them in the `data` folder.
 ### Inference with Video-ChatGPT + A-Guardian
 ```
 export PYTHONPATH="./:$PYTHONPATH"
-cd /CUVA/Video-ChatGPT/video_chatgpt/CUVA
+cd /CUVA/Models/Video-ChatGPT/video_chatgpt/CUVA
 ./inference_CUVA.sh
 ```
 ### Classic Evaluation
@@ -33,7 +33,7 @@ python eval.py
 ### Evaluation with MMEval 
 ```
 export PYTHONPATH="./:$PYTHONPATH"
-cd /CUVA/Video-ChatGPT/video_chatgpt/CUVA
+cd /CUVA/Models/Video-ChatGPT/video_chatgpt/CUVA
 ./mmEval_demo.sh
 ```
 ### Multiple reasoning and evaluation
