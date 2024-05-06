@@ -1,7 +1,9 @@
 # Uncovering What, Why and How: A Comprehensive Benchmark for Causation Understanding of Video Anomaly
 [![paper](https://img.shields.io/badge/cs.AI-2405.00181-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2405.00181)  
 The official repo for Uncovering What, Why and How: A Comprehensive Benchmark for Causation Understanding of Video Anomaly [CVPR2024].  
-This repository is still under maintenance. If you have any questions please contact [7597892@bupt.edu.cn]().
+This repository is still under maintenance. The code for the partial ablation experiment on A-Guardian is still being organized.  
+If you have any questions please contact [7597892@bupt.edu.cn]().
+
 
 ## Introduction
 We present a comprehensive benchmark for **Causation Understanding of Video Anomaly** (CUVA). 
