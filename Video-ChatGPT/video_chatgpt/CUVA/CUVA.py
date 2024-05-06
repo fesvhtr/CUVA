@@ -117,10 +117,6 @@ def parse_args():
     parser.add_argument("--mod", type=int, default=0)
     parser.add_argument("--gpu_id", type=str, default="2")
     parser.add_argument("--output_path", type=str, default='output_anomaly_cause.json')
-    parser.add_argument("--cas_path", type=str,
-                        default="/home/dh/pythonProject/AnomalyDataset/train_mist_v1/Causev1_ori.json")
-    parser.add_argument("--gt_path", type=str,
-                        default="/home/dh/pythonProject/AnomalyDataset/train_mist_v1/gt_Causev1.json")
     args = parser.parse_args()
 
     return args
@@ -189,7 +185,7 @@ if __name__ == "__main__":
     print('Initialization Finished')
 
     video_dir = '/home/disk1/combine_dataset'
-    for video_name in tqdm(os.listdir(video_dir)[0:20]):
+    for video_name in tqdm(os.listdir(video_dir)):
         video_path = os.path.join(video_dir, video_name)
         prompt = prompts['Timestamp']
         try:

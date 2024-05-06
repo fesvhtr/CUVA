@@ -103,11 +103,11 @@ def parse_args():
     parser.add_argument("--moderate", action="store_true")
     parser.add_argument("--embed", action="store_true")
     parser.add_argument("--model-name", type=str,
-                        default="/home/dh/zsc/VideoBench/model/Video-ChatGPT/LLaVA-7B-Lightening-v1-1")
+                        default="/mnt/new_disk/dh/zsc/VideoBench/model/Video-ChatGPT/LLaVA-7B-Lightening-v1-1")
     parser.add_argument('--vision_tower_path', type=str,
-                        default="/home/disk1/hub/models--openai--clip-vit-large-patch14/snapshots/8d052a0f05efbaefbc9e8786ba291cfdf93e5bff")
+                        default="openai/clip-vit-large-patch14")
     parser.add_argument("--projection_path", type=str, required=False,
-                        default="/home/dh/zsc/VideoBench/model/Video-ChatGPT/video_chatgpt-7B.bin")
+                        default="/mnt/new_disk/dh/zsc/VideoBench/model/Video-ChatGPT/video_chatgpt-7B.bin")
     parser.add_argument("--temp", type=float, default=0.01)
     parser.add_argument("--max_tokens", type=int, default=4096)
     # need customize
@@ -162,10 +162,13 @@ if __name__ == "__main__":
         'Time': 'Locate the position of the anomalous segment in the video, e.g. how many s to how many s, given as [xxxx,xxxx]',
     }
     chat_map = {
-        'Des': conv_cuva_des,
-        'cause': chat_cause,
-        'result': chat_result,
-        'default': chat_default
+        'Des': "cuva_des",
+        'Cau': "cuva_cause",
+        'Res': "cuva_result",
+        'Det': "default",
+        'Cls': "default",
+        'Time': "default",
+        'default': "default"
     }
 
     chat = Chat(args.model_name, chat_map['task'], tokenizer, image_processor, vision_tower, model, replace_token)

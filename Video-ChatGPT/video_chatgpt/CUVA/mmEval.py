@@ -109,9 +109,8 @@ def parse_args():
     parser.add_argument("--mod", type=int, default=None)
     parser.add_argument("--gpu_id", type=str, default="2")
     parser.add_argument("--output_path", type=str, default='output_anomaly_cause.json')
-    parser.add_argument("--cas_path", type=str, default="/home/dh/pythonProject/AnomalyDataset/train_mist_v1/Causev1_ori.json")
-    parser.add_argument("--gt_path", type=str, default="/home/dh/pythonProject/AnomalyDataset/train_mist_v1/gt_Causev1.json")
-    parser.add_argument("--sub_path", type=str)
+    parser.add_argument("--gt_path", type=str, default="")
+    parser.add_argument("--sub_path", type=str, default="")
     args = parser.parse_args()
 
     return args
@@ -200,8 +199,8 @@ if __name__ == "__main__":
     submission_file = args.sub_path
     output_path = args.output_path
 
-    model_name = submission_file.split('/')[-1].split('test_AQA_')[-1].split('.')[0]
-    output_file = os.path.join(output_path, 'mmaEval_output_{}.json'.format(model_name))
+    model_name = submission_file.split('/')[-1].split('test_CUVA_')[-1].split('.')[0]
+    output_file = os.path.join(output_path, 'mmEval_output_{}.json'.format(model_name))
     video_dir = '/home/dh/combine_dataset'
     err_id = []
     output_data = []
