@@ -20,6 +20,7 @@ conda activate cuva
 ### CUVA Dataset
 Please complete the [form](https://forms.gle/MLGBcxPuz2Vhvw5L9) to get the dataset URL.  
 There are 4 zip files and 1 json file in the dataset, unzip them and put them in the `data` folder.
+Also you can download part of the videos from [hf](https://huggingface.co/datasets/fesvhtr/CUVA).
 ### Inference with Video-ChatGPT + A-Guardian
 ```
 export PYTHONPATH="./:$PYTHONPATH"
