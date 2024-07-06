@@ -1,0 +1,53 @@
+1-Fighting
+1-1 Street
+1-2 Domestic
+1-3 School
+1-4 Other
+2-Animals Hurting People
+2-1 Pets
+2-2 Wild
+2-3 Other
+3-Water Incidents
+3-1 Drowing
+3-2 Boat
+3-3 Other
+4-Vandalism
+4-1 Facility
+4-2 Graffiti
+4-3 Other
+5-TrafficAccidents
+5-1 Motor
+5-2 Non-motor
+5-3 Other
+6-Robbery
+6-1 Shop
+6-2 Bank
+6-3 Other
+7-Theft
+7-1 Residential
+7-2 Vehicle
+7-3 Other
+8-Pedestrian Incidents
+8-1 roadside
+8-2 Jaywalking
+8-3 Falling
+8-4 Disturbance
+8-5 red light
+8-6 Other
+9-Fire
+9-1 Building
+9-2 Forest
+9-3 Factory
+9-4 Residential
+9-5 Other
+10-Traffic Violations
+10-1 Running
+10-2 Speeding
+10-3 regulations
+10-4 Driving
+10-5 Other
+11-Burning
+11-1 Paper
+11-2 Smoking
+11-3 Firework
+11-4 Other
