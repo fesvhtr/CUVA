@@ -1,5 +1,5 @@
 # Uncovering What, Why and How: A Comprehensive Benchmark for Causation Understanding of Video Anomaly
-[![paper](https://img.shields.io/badge/cs.AI-2405.00181-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2405.00181)  [![Hugging Face Datasets](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Hugging%20Face%20Datasets&query=downloads&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fdatasets%2Ffesvhtr%2FCUVA%2Fdownloads)](https://huggingface.co/datasets/fesvhtr/CUVA)
+[![paper](https://img.shields.io/badge/cs.AI-2405.00181-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2405.00181)  <a href="https://huggingface.co/datasets/fesvhtr/CUVA"><img src="https://huggingface.co/datasets/huggingface/badges/raw/main/dataset-on-hf-md-dark.svg" alt="Dataset on hf">
 
 
 
