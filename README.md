@@ -15,9 +15,10 @@ Then we propose a novel **prompt-based method** that can serve as a baseline app
 ## Get Start
 ```
 git clone https://github.com/fesvhtr/CUVA.git
+cd CUVA
 conda create -n cuva python=3.8
-pip install -r requirements.txt
 conda activate cuva
+pip install -r requirements.txt
 ```
 ## CUVA Benchmark
 ### CUVA Dataset
