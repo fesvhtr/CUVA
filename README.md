@@ -49,7 +49,7 @@ Sincere thanks to Video-chatGPT, VideoChat, mPlug, Otter, VideoLLaMA, Univtg and
 ## Cite
 If you find our work useful for your research, please consider citing:
 ```
-@INPROCEEDINGS{10654917,
+@INPROCEEDINGS{CUVA,
   author={Du, Hang and Zhang, Sicheng and Xie, Binzhu and Nan, Guoshun and Zhang, Jiayang and Xu, Junrui and Liu, Hangyu and Leng, Sicong and Liu, Jiangming and Fan, Hehe and Huang, Dajiu and Feng, Jing and Chen, Linli and Zhang, Can and Li, Xuhuan and Zhang, Hao and Chen, Jianhang and Cui, Qimei and Tao, Xiaofeng},
   booktitle={2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, 
   title={Uncovering what, why and How: A Comprehensive Benchmark for Causation Understanding of Video Anomaly}, 
