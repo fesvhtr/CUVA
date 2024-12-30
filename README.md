@@ -7,6 +7,7 @@ If you have any questions please contact [7597892@bupt.edu.cn]().
 
 ## Update  
 Now CUVA dataset can be easily evaluated by [**lmms-eval**](https://github.com/EvolvingLMMs-Lab/lmms-eval) by using the task name **cuva_test**.
+
 https://github.com/Dulpy/ECVA can access the new version of CUVA.
 
 ## Introduction
