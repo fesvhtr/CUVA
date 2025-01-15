@@ -3,7 +3,6 @@
 
 The official repo for Uncovering What, Why and How: A Comprehensive Benchmark for Causation Understanding of Video Anomaly [CVPR2024].  
 This repository is still under maintenance. The code for the partial ablation experiment on A-Guardian is still being organized.  
-If you have any questions please contact [7597892@bupt.edu.cn]().
 
 ## Update  
 Now CUVA dataset can be easily evaluated by [**lmms-eval**](https://github.com/EvolvingLMMs-Lab/lmms-eval) by using the task name **cuva_test**.
