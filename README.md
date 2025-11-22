@@ -2,7 +2,6 @@
 [![paper](https://img.shields.io/badge/cs.AI-2405.00181-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2405.00181)   <a href="https://huggingface.co/datasets/fesvhtr/CUVA"><img src="https://huggingface.co/datasets/huggingface/badges/raw/main/dataset-on-hf-md-dark.svg" alt="Dataset on hf">  
 
 The official repo for Uncovering What, Why and How: A Comprehensive Benchmark for Causation Understanding of Video Anomaly [CVPR2024].  
-This repository is still under maintenance. The code for the partial ablation experiment on A-Guardian is still being organized.  
 
 ## Updates  
 - **[2025.11]** We are working on finetuning some latest models to replace the out-of-date VideoChatGPT. We will try to release it **before 26 Jan**, if you are using or reproducing this work, please track progress.
