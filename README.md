@@ -5,9 +5,9 @@ The official repo for Uncovering What, Why and How: A Comprehensive Benchmark fo
 This repository is still under maintenance. The code for the partial ablation experiment on A-Guardian is still being organized.  
 
 ## Update  
-Now CUVA dataset can be easily evaluated by [**lmms-eval**](https://github.com/EvolvingLMMs-Lab/lmms-eval) by using the task name **cuva_test**.
-
-https://github.com/Dulpy/ECVA can access the new version of CUVA.
+- [2025.11] We are working on finetuning some latest models to replace the out-of-date VideoChatGPT.
+- https://github.com/Dulpy/ECVA can access the new version of CUVA. We also appreciate your citation of this paper.
+- Now CUVA dataset can be easily evaluated by [**lmms-eval**](https://github.com/EvolvingLMMs-Lab/lmms-eval) by using the task name **cuva_test**.
 
 ## Introduction
 We present a comprehensive benchmark for **Causation Understanding of Video Anomaly** (CUVA). 
