@@ -5,7 +5,7 @@ The official repo for Uncovering What, Why and How: A Comprehensive Benchmark fo
 This repository is still under maintenance. The code for the partial ablation experiment on A-Guardian is still being organized.  
 
 ## Update  
-- [2025.11] We are working on finetuning some latest models to replace the out-of-date VideoChatGPT.
+- **[2025.11]** We are working on finetuning some latest models to replace the out-of-date VideoChatGPT. We will try to release it before 26 Jan, if you are using or reproducing this work, please track progress.
 - https://github.com/Dulpy/ECVA can access the new version of CUVA. We also appreciate your citation of this paper.
 - Now CUVA dataset can be easily evaluated by [**lmms-eval**](https://github.com/EvolvingLMMs-Lab/lmms-eval) by using the task name **cuva_test**.
 
