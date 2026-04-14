@@ -6,8 +6,8 @@ The official repo for Uncovering What, Why and How: A Comprehensive Benchmark fo
 ## Updates  
 - [2026.04] The data format of the CUVA dataset on Hugging Face has been restructured into a more user-friendly version.  
 - [2025.11] We are working on finetuning some latest models to replace the out-of-date VideoChatGPT.
-- https://github.com/Dulpy/ECVA can access the new version of CUVA. We also appreciate your citation of this paper.
-- Now CUVA dataset can be easily evaluated by [**lmms-eval**](https://github.com/EvolvingLMMs-Lab/lmms-eval) by using the task name **cuva_test**.
+- [2025.11] https://github.com/Dulpy/ECVA can access the new version of CUVA. We also appreciate your citation of this paper.
+- [2025.10] Now CUVA dataset can be easily evaluated by [**lmms-eval**](https://github.com/EvolvingLMMs-Lab/lmms-eval) by using the task name **cuva_test**.
 
 ## Introduction
 We present a comprehensive benchmark for **Causation Understanding of Video Anomaly** (CUVA). 
