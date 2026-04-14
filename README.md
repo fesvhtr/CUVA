@@ -23,7 +23,43 @@ pip install -r requirements.txt
 ```
 ## CUVA Benchmark
 ### CUVA Dataset
-Please download the dataset from [hf](https://huggingface.co/datasets/fesvhtr/CUVA). There are 4 zip files and 1 json file in the dataset, unzip them and put them in the `data` folder.  
+#### Load annotation from Hugging Face Hub
+
+```python
+from datasets import load_dataset
+
+full_ds = load_dataset("fesvhtr/CUVA", split="full")
+test_ds = load_dataset("fesvhtr/CUVA", split="test")
+```
+
+#### Download Video Archives
+
+For the original video files, download the archives explicitly from the dataset repository.
+
+Download one archive into the Hugging Face cache:
+
+```python
+from huggingface_hub import hf_hub_download
+
+zip_path = hf_hub_download(
+    repo_id="fesvhtr/CUVA",
+    repo_type="dataset",
+    filename="raw/group_0.zip",
+)
+print(zip_path)
+```
+
+Download the whole repository snapshot:
+
+```python
+from huggingface_hub import snapshot_download
+
+repo_dir = snapshot_download(
+    repo_id="fesvhtr/CUVA",
+    repo_type="dataset",
+)
+print(repo_dir)
+```
 
 ### Inference with Video-ChatGPT + A-Guardian
 ```
